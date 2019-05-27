@@ -1,0 +1,26 @@
+footer {
+  background-color: #000;
+  display: flex;
+  line-height: 1.5em;
+  padding: 15px;
+  justify-content: space-around;
+    .info {
+      color: #c1c1c1;
+        span {
+        color: #fff;
+        }
+    }
+  nav {
+    ul li {
+      a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+        transition: .5s;
+      }
+      a:hover {
+        color: rgb(235, 97, 18);
+      }
+    }
+  }
+}

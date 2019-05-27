@@ -1,0 +1,36 @@
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+img {
+    max-height: 70px;
+    vertical-align: middle;
+}
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+.main, nav {
+    width: 80%;
+    margin: 10px auto;
+}
+img, span {
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px;
+}
+ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;   
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+a:hover {
+    color: rgb(235, 97, 18);
+}

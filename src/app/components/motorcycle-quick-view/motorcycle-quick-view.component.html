@@ -1,0 +1,32 @@
+<div class="moto">
+    <div class="images">
+        <img src="https://dw4i9za0jmiyk.cloudfront.net/2018/11/05/md_pre_tbda77b3bb8fc852a3ffaa8ca8803f98_87078a5c1aba.jpg"
+            alt="">
+        <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig"
+            (afterChange)="afterChange($event)">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <img src="{{ slide.img }}" alt="" width="100%">
+            </div>
+        </ngx-slick>
+    </div>
+    <div class="description">
+        <h2>Street BOB</h2>
+        <h3>38 700руб</h3>
+    </div>
+</div>
+<div class="moto">
+    <div class="images">
+        <img src="https://dw4i9za0jmiyk.cloudfront.net/2018/11/05/md_pre_tbda77b3bb8fc852a3ffaa8ca8803f98_87078a5c1aba.jpg"
+            alt="">
+        <ngx-slick class="carousel" #slickModal="slick-modal" [config]="slideConfig"
+            (afterChange)="afterChange($event)">
+            <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+                <img src="{{ slide.img }}" alt="" width="100%">
+            </div>
+        </ngx-slick>
+    </div>
+    <div class="description">
+        <h2>Street BOB</h2>
+        <h3>38 700руб</h3>
+    </div>
+</div>

@@ -9,7 +9,9 @@ export class HeaderComponent {
 
 data = {
   menu:{
-    catalog:"каталог"
+    catalog: "каталог",
+    service: "сервис",
+    about: "о нас",
   }
 }
 
